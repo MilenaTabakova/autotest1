@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @org.testng.annotations.Test
+    @org.testing.annotations.Test
     public void showZeroIfAmount1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
